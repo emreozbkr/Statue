@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ArtGallery</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./images/sculpture.png">
+  <meta name="viewport" content="width=device.width ">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown
+      </button>
+    </div>
+  </div>
+  <div id="hero">
+    <img src="./images/Başlıksız-7.jpg" class="ph1">
+    <div class="content">
+      <div class="container">
+        <h1 class="head">"Sanat olmasaydı, hakikatin edepsizliği dünyayı dayanılmaz kılardı."</h1>
+        <p>- George Bernard Shaw</p><br>
+        <div class="auidomp3">
+          <p >Clint Mansell - "The Night Cafe"</p>
+          <img src="./images/play.png" class="playyy" id="icon">
+        </div>
+
+      </div>
+    </div>
+  </div><br>
+
+  <audio  loop preload="metadata" id="mySong" >
+    <source src="./audio/music.mp3" type="audio/mp3">
+  </audio>
+
+
+
+<script>
+  var mySong = document.getElementById("mySong");
+  var icon = document.getElementById("icon");
+
+  icon.onclick = function(){
+    if(mySong.paused){
+      mySong.play();
+      icon.src = "./images/play.png"
+    }else{
+      mySong.pause();
+      icon.src = "./images/play.png"
+
+    }
+  }
+</script>
+
+
+
+  <hr>
+  <div class="row">
+    <div class="column">
+      <img src="./images/Başlıksız-12.png" style="width:100%">
+      <img src="./images/Başlıksız-2.png" style="width:100%">
+      <img src="./images/Başlıksız-3.png" style="width:100%">
+      <img src="./images/Başlıksız-4.png" style="width:100%">
+      <img src="./images/Başlıksız-5.png" style="width:100%">
+      <img src="./images/Başlıksız-6.png" style="width:100%">
+      <img src="./images/Başlıksız-4.png" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="./images/Başlıksız-7.png" style="width:100%">
+      <img src="./images/Başlıksız-8.png" style="width:100%">
+      <img src="./images/Başlıksız-12.png" style="width:100%">
+      <img src="./images/Başlıksız-9.png" style="width:100%">
+      <img src="./images/Başlıksız-2.png" style="width:100%">
+      <img src="./images/Başlıksız-7.png" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="./images/Başlıksız-12.png" style="width:100%">
+      <img src="./images/Başlıksız-2.png" style="width:100%">
+      <img src="./images/Başlıksız-3.png" style="width:100%">
+      <img src="./images/Başlıksız-4.png" style="width:100%">
+      <img src="./images/Başlıksız-5.png" style="width:100%">
+      <img src="./images/Başlıksız-6.png" style="width:100%">
+      <img src="./images/Başlıksız-4.png" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="./images/Başlıksız-7.png" style="width:100%">
+      <img src="./images/Başlıksız-8.png" style="width:100%">
+      <img src="./images/Başlıksız-12.png" style="width:100%">
+      <img src="./images/Başlıksız-9.png" style="width:100%">
+      <img src="./images/Başlıksız-2.png" style="width:100%">
+      <img class="golge" src="./images/Başlıksız-7.png" style="width:100%">
+    </div>
+  </div>
+  <hr>
+  <h1 class="artt">-Michelangelo-</h1>
+  <div class="ornek">
+    <img src="./images/heykell.png" class="sola-kaydir">
+    <p class="fontb">Rönesans sanatına benzersiz bir etkide bulunan Michelangelo, klasik sanat tekniklerini öğrenmesinin yanı sıra asıl olarak, insan formunu her açıdan tasvir edebilmek için kadavralar üzerinde çalışıp Yunan ve Roma sanatından
+      devraldığı idealleştirilmiş insan tasarımlarını ulaştığı gerçekçilik boyutunu yakalamaya çalışır. Batı resminin babası olarak bilinen Giotto’nun resmindeki doğallık ve gerçekçilik ile
+      15. yüzyıl başında tam olarak anlaşılabilen derinlikte perspektif olgusunu geliştirip kendi tarzına temel yapan Michelangelo onlarca heykel, freske imza atıp Roma’nın yeniden inşa ve düzenlenmesinde de önemli görevler almıştır. Onu idolü olarak
+      seçen birçok kişi vardır.
+    </p>
+    <p class="fontb">
+      Hayatının son dönemini Roma’daki Aziz Peter Kilisesi’nin mimarı olarak geçiren Michelangelo 18 Şubat 1564'te 89 yaşında ölür. Michelangelo'nun ellerinde oluşan romatizmal hastalık sanatçıyı etkilese de çalışmalarına tarzını değiştirerek devam
+      etmiştir.</p>
+  </div>
+  <hr>
+  <h1 class="artt">-Donatello-</h1>
+  <div class="ornekk">
+    <img src="./images/yupp.png" class="sola-kaydirr">
+    <p class="fontb">Bargello Müzesi'nde yer alan Davud heykeli, Kutsal Kitap'ta adı geçen genç kahramanın düşmanı Calut'u yenmesinden sonraki halini canlandırır. Doğal boyutlardaki bu çıplak heykel, Antikçağ'dan beri ilk olarak yapılmış bir tam
+      kabartmadır ve heykelcilik tarihinin önemli anıtlarından birini oluşturur.
+
+      Donatello'nun gençlik yıllarında, katedral için mermerden yaptığı Davud ile yaratmış olduğu galip genç erkek tipi, bu tunçtan heykelde en son biçimine ulaşmıştır: heykel grubu, defneden bir taç üstüne oturtulmuş, böylece çok sayıda bakış
+      açısı
+      elde edilmiştir; kahramanın üstünde yalnızca dizlik ve şapka vardır; silah olarak deve isabet ettirdiği taşı ve devin kafasını uçurduğu kılıcı tutmaktadır. Contrapposto bir duruştaki beden, zarif, coşkulu ve rahatlamış bir halde ve duruşrnr
+      her
+      an değiştirecekmiş gibi görünmektedir; sol bacağıyla yenilgiye uğrattığı devin kafasını çiğnemektedir;
+
+    </p>
+
+    <p class="fontb">
+      devin kafasında iri bir çift kanatla süslü başlık vardır; kanatlardan biri kahramanın sağ bacağına değer durumdadır. Genç bedenden fışkıran şehveti, parlak görünüşlü teni ile incelikle, titizlikle işlenmiş dizlikleri ve defne yapraklı başlığı
+      arasındaki karşıtlık vurgular. Yudit ve Holofernos grubu gibi Davud heykelinin de XV.yy sonunda Medici'lerin sarayında bulunduğu bilinmektedir.</p>
+  </div>
+  <hr>
+  <h1 class="artt">-Auguste Rodin-</h1>
+  <div class="ornek">
+    <img src="./images/think.png" class="sola-kaydir">
+    <p class="fontb">Gian Lorenzo Bernini (Giovanni Lorenzo Bernini) (7 Aralık 1598, Napoli 28 Kasım1680, Roma), Heykeltıraş. 17. yüzyıl Romasında, Barok tarzında çalışan bir heykeltıraştı.Bernini bir heykeltıraş, ressam ve mimardır. Roma'daki
+      eserlerin yaklaşık yüzde yetmişi Bernini'ye aittir. En çok bilinen eseri Dört Irmak Çeşmesi´dir. Ayrıca Santa Maria Della Vittoria Kilisesi´nin mihrap nişinde yer alan kompozisyonunun temeli Azize Theresa'nın dinsel duygular içinde kendinden
+      geçisine dayanmaktadır.Vatikan şehrinin yapılarını o tasarlamıştır. Roma ve Vatikan şehirlerindeki eserlerin büyük çoğunluğuna sahip olmasının sebebi,büyük yeteneği sayesinde kilisenin himayesine girmiş olmasıdır.
+    </p>
+    <p class="fontb">
+      Dönemin devlet sanatçısı konumundaki Bernini, eserlerinin büyük bölümünü küçük maketler halinde tasarlayıp, kendi eğittiği veya keşfettiği genç çıraklara yaptırmıştır.Ayrıca Dan Brown'un Melekler ve Şeytanlar adlı kitabında bir Illuminati üyesi
+      olduğu iddia edilmektedir. Hatta Illuminati'nin gizli toplantı yeri olan Aydınlanma kilisesinin yerini eserleriyle belirttiği iddia edilmektedir. Doğanın dört mistik öğesi Toprak, Hava, Ateş ve Su her bir eserin temasıdır. Toprak eseri
+      "Habakkuk ile Melek" heykelidir. Hava işareti St. Pietro meydanında bulunan "Batı Rüzgarı" adlı eseridir. Ateş işareti "Azize Teresa'nın Vecdi" heykelidir. Son olarak su işareti ise "Dört Irmak Çeşmesi"dir.</p>
+  </div>
+  <hr>
+  <div class="containertg">
+    <img src="./images/Başlıksız-101.png" class="imagetg">
+    <div class="overlaytg">"Dipdiri hiçbir yaratık yoktur ki güneş altında
+      ölüm dize getirmesin, yazgısı bozmasın onu." <br> -Anonim </div>
+  </div>
+  <div class="containert">
+    <img src="./images/Başlıksız-99.png" alt="Avatar" class="imaget">
+    <div class="overlayt">“Hayat ile sanat arasındaki fark,sanatın daha katlanablir olmasıdır.” <br> -Charles Bukowski
+    </div>
+  </div>
+  <hr>
+  <h1 class="artt">-Heykeltıraş-</h1>
+  <p class="fontb">Heykel ve heykelciliğin tarihi eski zamanlara kadar uzanır. Dünyanın çeşitli yerlerinde yapılan kazılarda mermer, ağaç, taş, pişmiş toprak, maden gibi çok çeşitli malzemelerden yapılmış heykel ve heykelciklere rastlanmaktadır.
+    Bunlar ve diğer heykeller üzerinde yapılan incelemelerden, heykellerin büyük bir kısmının çeşitli kavimlerin ilah olarak tanıdıkları varlıkları tasvir ettikleri, bazılarının kral-kraliçe gibi hükümdar ailelerini, kahramanları ve kahramanlık
+    olaylarını, bilim, sanat ve sporda meşhur olmuş kimseleri, bir kısmının da çeşitli insan ve hayvanları tasvir ettikleri anlaşılmıştır. Tarihi araştırmalar, ilk heykelin ne zaman ve kimler tarafından yapıldığı hakkında herhangi bir netice
+    vermemektedir.
+
+    Tarihi çok eski olduğu bilinen heykel ve heykelciliği bu derece yaygınlaştıran asıl sebep, inançtır. Çeşitli devirlerde yaşamış insanların tapındıkları ve ilah tanıdıkları şeylerin ağaç, taş, maden üzerine işlemeleri ve ibadetlerini bunlara karşı
+    yapmaları, heykel ve heykelciliğe cemiyet hayatında geniş yer verilmesine yol açmıştır.
+
+    İlk çağ topluluklarında sanatçılar genellikle bir geleneği devam ettirir. Ortaya konan eser, toplumun ortak malı olarak kabul edilir. Dolayısıyla eserler sanatçıları değil üretildikleri kavim ve toplulukların adıyla anılırlar.
+
+    Tarımsal faaliyetlerin başlamasıyla birlikte, verimsizlik sorununa çare olarak, Magna Mater (Ana Tanrıça) heykelcikleri yapılmıştır. Bu heykelciklerin malzemesi ağaç ya da topraktır. Heykeller genel olarak aynı duruşu sergiler, kişisel özellik
+    taşımazlar. Baş oranları vücudun geneline göre büyüktür. Üç boyutlu heykellerde bile uzuvlar çizilerek gösterilir. Heykel yüzeyleri çizilerek süsleme yoluna gidilir.</p>
+  <hr>
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <h3>Art<span>Gallery</span></h3>
+      <p class="footer-links">
+        <a target="_blank" href="" class="link-1">Home</a>
+        <a target="_blank" href="">About</a>
+        <a target="_blank" href="">Projects</a>
+        <a target="_blank" href="https://emreozbkr.github.io/MyPersonal-Website/MyPersonalWebsite-/contact.html">Contact</a>
+      </p>
+      <p class="footer-company-name">Emre Özbakır © 2021</p>
+    </div>
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>-</span> Kütahya, Turkey</p>
+      </div>
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>-</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p>emreozbkrr@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>Takipte kal !</span>
+        Yaptığım projeler, iş teklifi ve daha fazlasını merak ediyorsan benimle iletişime geçebilirsin.
+      </p>
+      <div class="footer-icons">
+        <a target="_blank" href="https://twitter.com/emreozbkrr"><i class="fa fa-twitter"></i></a>
+        <a target="_blank" href="https://www.instagram.com/emreozbkr/?hl=tr"><i class="fa fa-instagram"></i></a>
+        <a target="_blank" href="https://github.com/emreozbkr"><i class="fa fa-github"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCb_spsFfk_PpbD5tX7cQBUQ"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
